@@ -1,0 +1,32 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+@import '../../assets/scss/main';
+
+.component {
+  margin-bottom: map-get($distance, l);
+  padding: map-get($distance, xl);
+  color: map-get($colors, dark);
+  border-radius: map-get($distance, l);
+  background-color: #fff;
+  text-align: center;
+  -webkit-box-shadow: 3px 3px 6px 0px rgba(69, 69, 69, 0.3);
+  -moz-box-shadow: 3px 3px 6px 0px rgba(69, 69, 69, 0.3);
+  box-shadow: 3px 3px 6px 0px rgba(69, 69, 69, 0.3);
+  opacity: 0;
+  @include animate();
+
+  &.show {
+    opacity: 1;
+  }
+
+  &__title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &__description {
+    margin-top: map-get($distance, m);
+    font-size: 0.8em;
+  }
+}

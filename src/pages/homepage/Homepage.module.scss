@@ -1,0 +1,76 @@
+@import '../../assets/scss/variables';
+
+.component {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: 1fr;
+
+  @media (min-width: map-get($breakpoints, sm)) {
+    grid-template-columns: 1fr;
+  }
+
+  @media (min-width: map-get($breakpoints, md)) {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  @media (min-width: map-get($breakpoints, lg)) {
+    grid-template-columns: 1fr 3fr;
+  }
+
+  @media (min-width: map-get($breakpoints, xl)) {
+    grid-template-columns: 1fr 3fr;
+  }
+
+  @media (min-width: map-get($breakpoints, xxl)) {
+    grid-template-columns: 1fr 3fr;
+  }
+
+  &__colLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: map-get($distance, xl);
+
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 1em;
+    }
+
+    button {
+      width: 100%;
+
+      &:last-child {
+        margin-bottom: map-get($distance, xl);
+      }
+    }
+  }
+
+  &__colRight {
+    min-height: 55vh;
+    background-color: map-get($colors, beige-color);
+    background-image: url('../../assets/img/baby.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 65%;
+    border-radius: $border-radius;
+    padding: 10%;
+
+    &.blue {
+      background-color: map-get($colors, blue-color);
+    }
+
+    &.pink {
+      background-color: map-get($colors, pink-color);
+    }
+
+    p {
+      text-align: center;
+      opacity: 0.8;
+    }
+  }
+}
