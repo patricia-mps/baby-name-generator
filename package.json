@@ -1,5 +1,6 @@
 {
   "name": "baby-name-generator",
+  "homepage": "https://patricia-mps.github.io/baby-name-generator/",
   "version": "0.1.0",
   "private": true,
   "type": "module",
