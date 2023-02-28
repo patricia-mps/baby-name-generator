@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/baby-name-generator/static/css/main.1cbd0b87.css",
+    "main.css": "/baby-name-generator/static/css/main.6e2aa04e.css",
     "main.js": "/baby-name-generator/static/js/main.5f429d76.js",
     "static/js/787.76203872.chunk.js": "/baby-name-generator/static/js/787.76203872.chunk.js",
     "static/media/baby.png": "/baby-name-generator/static/media/baby.346157f45d80cbcf77b1.png",
     "index.html": "/baby-name-generator/index.html",
-    "main.1cbd0b87.css.map": "/baby-name-generator/static/css/main.1cbd0b87.css.map",
+    "main.6e2aa04e.css.map": "/baby-name-generator/static/css/main.6e2aa04e.css.map",
     "main.5f429d76.js.map": "/baby-name-generator/static/js/main.5f429d76.js.map",
     "787.76203872.chunk.js.map": "/baby-name-generator/static/js/787.76203872.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cbd0b87.css",
+    "static/css/main.6e2aa04e.css",
     "static/js/main.5f429d76.js"
   ]
 }
